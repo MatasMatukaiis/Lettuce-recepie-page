@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-size: 1.4vw;
+    background-image: url("https://www.bhg.com/thmb/Xy272oKSPzsYoQzQE1uzA6r6e8Y=/1878x0/filters:no_upscale():strip_icc()/tango-oakleaf-lettuce-c6f6417e-b835c4813e1d4cbf9d11ddf09fbd2ea6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #afe8af, #366c00);
+    color: #ffffff;
+    text-align: center;
+}
+header a {
+    margin-right: 20vw;
+}
+header a button {
+    background-color: #55aa00;
+    color: #ffffff;
+    border: #366c00 solid 0.3vw;
+    border-radius: 0.3vw;
+    font-size: 1.7vw;
+    width: 10vw;
+    height: fit-content;
+}
+#dropDownButton {
+    margin-left: 20vw;
+    background-color: #55aa00;
+    color: #ffffff;
+    border: #366c00 solid 0.3vw;
+    border-radius: 0.3vw;
+    font-size: 1.7vw;
+    width: 10vw;
+    height: fit-content;
+}
+#dropDown a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 10vw;
+    margin-top: 0.3vh;
+    border-bottom: #ffffff solid 0.1vh;
+}
+#dropDown {
+    background-color: #03a73c;
+    border-radius: 0.3vw;
+    width: fit-content;
+    height: fit-content;
+    padding: 1vh 1vw 1vh 1vw;
+    position: absolute;
+    right: 14vw;
+}
+.inyblock {
+    display: inline-block;
+}
+.noner {
+    display: none;
+}
+#bigCard {
+    text-align: center;
+    background-color: #538a1dbf;
+    color: #ffffff;
+    border-radius: 0.5vw;
+    margin: 1vh;
+}
+#bigCard p {
+    padding: 1vh 1vw 2vh 1vw;
+}
+#bigCard h2 {
+    padding-top: 1vh;
+}
+#grider {
+    
+}
+.cardStyle {
+    background-color: #366c00;
+    color: #ffffff;
+    border-radius: 0.3vw;
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 1vh;
+}
+.cardStyle img {
+    width:25vw;
+    height: 15vh;
+}
+.cardStyle h2 p a {
+    padding-left: 1vh;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #366c00, #112201);
+    height: 4vh;
+    padding-bottom: 2vh;
+}
+footer p {
+    padding-top: 1vh;
+}
