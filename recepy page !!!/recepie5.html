@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoisin Meatball Lettuce Wraps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="inyblock"><button>Home</button></a>
+        <h1 class="inyblock">Lettuce recepies</h1>
+        <button id="dropDownButton" class="inyblock">Recepies</button>
+        <div id="dropDown" class="noner">
+            <a href="recepie1.html">Vietnamese Pork Lettuce Wraps</a>
+            <a href="recepie2.html">Tuna Nicoise Salad</a>
+            <a href="recepie3.html">Warm Rice & Pintos Salad</a>
+            <a href="recepie4.html">Strawberry Poppy Seed Salad</a>
+            <a href="recepie5.html">Hoisin Meatball Lettuce Wraps</a>
+            <a href="recepie6.html">Turkey Salad on Wheat Bread</a>
+        </div>
+    </header>
+
+    <div id="ingrediants">
+        <h2>Ingredients</h2>
+        <ul id="ulLiSeperator">
+            <li>2 tablespoons cornstarch</li>
+            <li>2 large eggs, lightly beaten</li>
+            <li>1/4 cup minced fresh chives</li>
+            <li>3 tablespoons dry bread crumbs</li>
+            <li>3 tablespoons hoisin sauce</li>
+            <li>4 teaspoons minced fresh gingerroot</li>
+            <li>3 garlic cloves, minced</li>
+            <li>1/2 teaspoon crushed red pepper flakes</li>
+            <li>3/4 pound lean ground beef (90% lean)</li>
+            <li>1/2 pound ground pork</li>
+            <li>2 to 3 tablespoons canola oil, divided</li>
+        </ul>
+        <h3>Sauce :</h3>
+        <ul>
+            <li>1/2 cup red currant jelly</li>
+            <li>1/2 cup hoisin sauce</li>
+            <li>2 tablespoons mirin (sweet rice wine)</li>
+            <li>3 garlic cloves, minced</li>
+            <li>1-1/2 teaspoons Thai red chili paste</li>
+        </ul>
+        <h3>Wraps :</h3>
+        <ul>
+            <li>36 small Bibb or Boston lettuce leaves</li>
+            <li>1/4 cup minced fresh cilantro</li>
+        </ul>
+    </div>
+    <div id="directions">
+        <h2>Directions</h2>
+        <ul id="directions3Ul">
+            <li>Place cornstarch in a shallow bowl. In a large bowl, combine the next 7 ingredients. Add beef and pork; mix lightly but thoroughly. Shape into 1-in. balls; coat with cornstarch.</li>
+            <li>In a large cast-iron or other heavy skillet, heat 2 tablespoons oil over medium heat. Brown meatballs in batches, adding additional oil as needed. Remove with a slotted spoon; drain on paper towels.</li>
+            <li>Add sauce ingredients to skillet; cook and stir over medium heat until blended. Return meatballs to pan; bring to a boil. Reduce heat; simmer, uncovered, until meatballs are glazed and cooked through, 5-8 minutes, stirring occasionally. Serve meatballs in lettuce leaves; sprinkle with cilantro.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>made by Matas Matukaitis GJSM 22/1</p>
+    </footer>
+    <script>
+        document.querySelector("#dropDownButton").addEventListener("click", () => {
+            document.querySelector("#dropDown").classList.toggle("noner")
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warm Rice & Pintos Salad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="inyblock"><button>Home</button></a>
+        <h1 class="inyblock">Lettuce recepies</h1>
+        <button id="dropDownButton" class="inyblock">Recepies</button>
+        <div id="dropDown" class="noner">
+            <a href="recepie1.html">Vietnamese Pork Lettuce Wraps</a>
+            <a href="recepie2.html">Tuna Nicoise Salad</a>
+            <a href="recepie3.html">Warm Rice & Pintos Salad</a>
+            <a href="recepie4.html">Strawberry Poppy Seed Salad</a>
+            <a href="recepie5.html">Hoisin Meatball Lettuce Wraps</a>
+            <a href="recepie6.html">Turkey Salad on Wheat Bread</a>
+        </div>
+    </header>
+
+    <div id="ingrediants">
+        <h2>Ingredients</h2>
+        <ul id="ulLiSeperator">
+            <li>1 tablespoon olive oil</li>
+            <li>1 cup frozen corn</li>
+            <li>1 small onion, chopped</li>
+            <li>2 garlic cloves, minced</li>
+            <li>1-1/2 teaspoons chili powder</li>
+            <li>1-1/2 teaspoons ground cumin</li>
+            <li>1 can (15 ounces) pinto beans, rinsed and drained</li>
+            <li>1 package (8.8 ounces) ready-to-serve brown rice</li>
+            <li>1 can (4 ounces) chopped green chiles</li>
+            <li>1/2 cup salsa</li>
+            <li>1/4 cup chopped fresh cilantro</li>
+            <li>1 bunch romaine, quartered lengthwise through the core</li>
+            <li>1/4 cup finely shredded cheddar cheese</li>
+        </ul>
+    </div>
+    <div id="directions">
+        <h2>Directions</h2>
+        <ul id="directions3Ul">
+            <li>In a large skillet, heat oil over medium-high heat. Add corn and onion; cook and stir 4-5 minutes or until onion is tender. Stir in garlic, chili powder and cumin; cook and stir 1 minute longer.</li>
+            <li>Add beans, rice, green chiles, salsa and cilantro; heat through, stirring occasionally.</li>
+            <li>Serve over romaine wedges. Sprinkle with cheese.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>made by Matas Matukaitis GJSM 22/1</p>
+    </footer>
+    <script>
+        document.querySelector("#dropDownButton").addEventListener("click", () => {
+            document.querySelector("#dropDown").classList.toggle("noner")
+        })
+    </script>
+</body>
+</html>

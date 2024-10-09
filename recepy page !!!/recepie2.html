@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuna Nicoise Salad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="inyblock"><button>Home</button></a>
+        <h1 class="inyblock">Lettuce recepies</h1>
+        <button id="dropDownButton" class="inyblock">Recepies</button>
+        <div id="dropDown" class="noner">
+            <a href="recepie1.html">Vietnamese Pork Lettuce Wraps</a>
+            <a href="recepie2.html">Tuna Nicoise Salad</a>
+            <a href="recepie3.html">Warm Rice & Pintos Salad</a>
+            <a href="recepie4.html">Strawberry Poppy Seed Salad</a>
+            <a href="recepie5.html">Hoisin Meatball Lettuce Wraps</a>
+            <a href="recepie6.html">Turkey Salad on Wheat Bread</a>
+        </div>
+    </header>
+
+    <div id="ingrediants">
+        <h2>Ingredients</h2>
+        <ul>
+            <li>
+                <h3>Tuna :</h3>
+                <p>The flavor of the tuna will stand out in this salad, so choose a high quality tuna brand. This recipe calls for pouch tuna packed in water, but you may use canned tuna if you prefer. Tuna packed in oil is a bit heavier tasting, so if you use it, consider reducing the amount of dressing.</p>
+            </li>
+            <li>
+                <h3>Potatoes : </h3>
+                <p>Boiled red potatoes are a nice salad topping because they hold their shape, and are so dense that they don’t soak up all the dressing. You may swap in another type of potato as long as it’s a waxy variety such as purple potatoes or fingerlings.</p>
+            </li>
+            <li>
+                <h3>Green beans :</h3>
+                <p>Green beans add snappy crunch to this salad. You may use frozen green beans or fresh green beans, tipped and tailed. Be sure not to overcook the beans—they should still have a nice bite.</p>
+            </li>
+            <li>
+                <h3>Vinaigrette :</h3>
+                <p>This recipe calls for store-bought oil and vinegar dressing enhanced with lemon zest and fresh pepper. However, you can sub the store-bought dressing with a homemade vinaigrette if you prefer.</p>
+            </li>
+            <li>
+                <h3>Eggs :</h3>
+                <p>Hard-boiled eggs are a classic addition to many lunch salads. To boil eggs, we suggest placing them in a pot of cool water, bringing it to a boil, then immediately removing from heat and leaving the eggs to sit until cooked. For salads, cook until the yolks are firm enough to hold their shape without running: 12 minutes for a firm yolk and 15 minutes for a true hard boil.</p>
+            </li>
+            <li>
+                <h3>Lettuce :</h3>
+                <p>Our recipe calls for romaine lettuce, a type of lettuce that we love for its mix of crunchy hearts and robust leaves.</p>
+            </li>
+        </ul>
+    </div>
+    <div id="directions">
+        <h2>Directions</h2>
+        <ul>
+            <li>
+                <h3>Step 1: Cook the beans and potatoes</h3>
+                <p>Place the potatoes in a large saucepan and add water to cover. Bring to a boil. Reduce the heat and cook, uncovered, until tender, 8 to 10 minutes, adding the green beans during the last three minutes of cooking. Drain the pot and immediately drop the potatoes and beans into ice water. Drain and pat dry.</p>
+            </li>
+            <li>
+                <h3>Step 2: Make the salad dressing</h3>
+                <p>In a small bowl, combine the salad dressing, lemon zest and pepper.</p>
+            </li>
+            <li>
+                <h3>Step 3: Assemble the salad</h3>
+                <p>Divide the romaine among four plates. Arrange the potatoes, green beans, eggs, tuna and tomatoes over the romaine. Serve with the dressing mixture on the side or poured over, if you’ll be eating immediately.</p>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>made by Matas Matukaitis GJSM 22/1</p>
+    </footer>
+    <script>
+        document.querySelector("#dropDownButton").addEventListener("click", () => {
+            document.querySelector("#dropDown").classList.toggle("noner")
+        })
+    </script>
+</body>
+</html>

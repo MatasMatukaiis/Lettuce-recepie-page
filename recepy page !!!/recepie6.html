@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turkey Salad on Wheat Bread</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="inyblock"><button>Home</button></a>
+        <h1 class="inyblock">Lettuce recepies</h1>
+        <button id="dropDownButton" class="inyblock">Recepies</button>
+        <div id="dropDown" class="noner">
+            <a href="recepie1.html">Vietnamese Pork Lettuce Wraps</a>
+            <a href="recepie2.html">Tuna Nicoise Salad</a>
+            <a href="recepie3.html">Warm Rice & Pintos Salad</a>
+            <a href="recepie4.html">Strawberry Poppy Seed Salad</a>
+            <a href="recepie5.html">Hoisin Meatball Lettuce Wraps</a>
+            <a href="recepie6.html">Turkey Salad on Wheat Bread</a>
+        </div>
+    </header>
+
+    <div id="ingrediants">
+        <h2>Ingredients</h2>
+        <ul id="ulLiSeperator">
+            <li>2/3 cup chopped romaine</li>
+            <li>1/2 cup finely chopped cooked turkey</li>
+            <li>2 bacon strips, cooked and crumbled</li>
+            <li>1 green onion, thinly sliced</li>
+            <li>2 tablespoons frozen peas, thawed</li>
+            <li>2 tablespoons shredded Swiss cheese</li>
+            <li>3 tablespoons mayonnaise</li>
+            <li>Dash pepper</li>
+            <li>4 slices whole wheat bread</li>
+        </ul>
+    </div>
+    <div id="directions">
+        <h2>Directions</h2>
+        <ul id="directions3Ul">
+            <li>In a small bowl, combine the first 6 ingredients. Stir in mayonnaise and pepper. Spread over 2 slices of bread; top with remaining bread.</li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>made by Matas Matukaitis GJSM 22/1</p>
+    </footer>
+    <script>
+        document.querySelector("#dropDownButton").addEventListener("click", () => {
+            document.querySelector("#dropDown").classList.toggle("noner")
+        })
+    </script>
+</body>
+</html>

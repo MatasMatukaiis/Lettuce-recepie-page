@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strawberry Poppy Seed Salad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="inyblock"><button>Home</button></a>
+        <h1 class="inyblock">Lettuce recepies</h1>
+        <button id="dropDownButton" class="inyblock">Recepies</button>
+        <div id="dropDown" class="noner">
+            <a href="recepie1.html">Vietnamese Pork Lettuce Wraps</a>
+            <a href="recepie2.html">Tuna Nicoise Salad</a>
+            <a href="recepie3.html">Warm Rice & Pintos Salad</a>
+            <a href="recepie4.html">Strawberry Poppy Seed Salad</a>
+            <a href="recepie5.html">Hoisin Meatball Lettuce Wraps</a>
+            <a href="recepie6.html">Turkey Salad on Wheat Bread</a>
+        </div>
+    </header>
+
+    <div id="ingrediants">
+        <h2>Ingredients</h2>
+        <ul>
+            <li>
+                <h3>Strawberries :</h3>
+                <p>Definitely use fresh strawberries for your salad. Look for plump fruit with a deep red hue and fragrant aroma. If you bring home too many from the farmers market or grocery store, you can store strawberries for use a day or more later.</p>
+            </li>
+            <li>
+                <h3>Lettuce : </h3>
+                <p>Romaine is our first choice, but other common lettuce varieties like butterhead are lovely too. Or, leafy greens such as spinach, arugula and kale make stellar substitutes for lettuce in this salad.</p>
+            </li>
+            <li>
+                <h3>Onion :</h3>
+                <p>Shallots and red onions offer the perfect balance between a wonderfully piquant oniony flavor and a hint of sweetness to complement the ripe berries.</p>
+            </li>
+            <li>
+                <h3>Dressing :</h3>
+                <p>The irresistible tangy dressing gets its creamy texture from a combination of mayo, milk and sour cream. A splash of apple cider vinegar adds a sharp, fruity bite, balanced out by some sugar. Poppy seeds introduce a satisfying crunch and a subtle nuttiness to each bite. In a word? Perfection.</p>
+            </li>
+            <li>
+                <h3>Candied almonds :</h3>
+                <p>As far as salad toppings go, candied almonds are out of this world. All you need to make them is sugar and slivered almonds.</p>
+            </li>
+        </ul>
+    </div>
+    <div id="directions">
+        <h2>Directions</h2>
+        <ul>
+            <li>
+                <h3>Step 1: Make the candied almonds</h3>
+                <p>Place the sugar in a small, heavy skillet. Cook and stir over medium-low heat until the sugar melts and becomes caramel colored, about 10 minutes. Add the almonds and stir until well-coated. Spread on foil and leave to cool.</p>
+            </li>
+            <li>
+                <h3>Step 2: Prep the salad and the dressing</h3>
+                <p>Place the lettuce, onion and strawberries in a large bowl. In a small bowl, whisk the mayonnaise, sugar, sour cream, milk, apple cider vinegar and poppy seeds to combine.</p>
+            </li>
+            <li>
+                <h3>Step 3: Assemble the salad</h3>
+                <p>Pour the dressing over the salad and toss to combine. Break up the candied almonds into smaller pieces and sprinkle them over the salad. Serve immediately.</p>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>made by Matas Matukaitis GJSM 22/1</p>
+    </footer>
+    <script>
+        document.querySelector("#dropDownButton").addEventListener("click", () => {
+            document.querySelector("#dropDown").classList.toggle("noner")
+        })
+    </script>
+</body>
+</html>
